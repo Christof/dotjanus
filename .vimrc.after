@@ -1,0 +1,2 @@
+filetype plugin on
+command! -nargs=* Wrap set wrap linebreak nolist
