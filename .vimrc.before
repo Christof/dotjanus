@@ -1,0 +1,7 @@
+let mapleader = ","
+set t_Co=256
+
+let g:tex_flavor='latex'
+let g:Tex_DefaultTargetFormat='pdf'
+
+filetype indent plugin on
