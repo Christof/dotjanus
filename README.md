@@ -3,7 +3,7 @@ dotjanus
 Extensions and configuration for the [Janus vim distribution](https://github.com/carlhuda/janus).
 Installation
 ------------
-```
+```shell
 # clone repository into .janus folder
 git clone git://github.com/Christof/dotjanus.git ~/.janus
 cd ~/.janus
