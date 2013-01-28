@@ -12,5 +12,5 @@ git submodule init
 # checkout submodules
 git submodule update
 # create symbolic links for .vimrc.before and .vimrc after
-./link
+./links
 ```
