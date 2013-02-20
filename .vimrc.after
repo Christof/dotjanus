@@ -3,3 +3,9 @@ command! -nargs=* Wrap set wrap linebreak nolist
 " Don't interpret numbers with leading 0 as octal numbers (e.g <C-A> on 007
 " yields 008 and not 010
 set nrformats=
+
+" tab navigation
+nnoremap <C-tab>   :tabnext<CR>
+nnoremap <S-k>     :tabnext<CR>
+nnoremap <S-j>     :tabprevious<CR>
+nnoremap <C-t>     :tabnew<CR>
