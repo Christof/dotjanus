@@ -4,6 +4,8 @@ command! -nargs=* Wrap set wrap linebreak nolist
 " yields 008 and not 010
 set nrformats=
 
+" Increase command history capacity
+set history=400
 " tab navigation
 nnoremap <C-tab>   :tabnext<CR>
 nnoremap <S-k>     :tabnext<CR>
