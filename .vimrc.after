@@ -6,6 +6,10 @@ set nrformats=
 
 " Increase command history capacity
 set history=400
+" Enable 'scrolling with filtering' using <C-p> and <C-n>
+cnoremap <C-p> <Up>
+cnoremap <C-n> <Down>
+
 " tab navigation
 nnoremap <C-tab>   :tabnext<CR>
 nnoremap <S-k>     :tabnext<CR>
