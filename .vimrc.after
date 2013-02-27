@@ -15,3 +15,6 @@ nnoremap <C-tab>   :tabnext<CR>
 nnoremap <S-k>     :tabnext<CR>
 nnoremap <S-j>     :tabprevious<CR>
 nnoremap <C-t>     :tabnew<CR>
+
+" enable mouse in all modes
+set mouse=a
