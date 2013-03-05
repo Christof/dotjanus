@@ -1,5 +1,11 @@
 filetype plugin on
-command! -nargs=* Wrap set wrap linebreak nolist
+command! -nargs=* Wrap call s:EnableWrap()
+function s:EnableWrap()
+  set wrap linebreak nolist
+  nnoremap k gk
+  nnoremap j gj
+endfunction
+
 " Don't interpret numbers with leading 0 as octal numbers (e.g <C-A> on 007
 " yields 008 and not 010
 set nrformats=
