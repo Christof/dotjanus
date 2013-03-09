@@ -1,4 +1,4 @@
-let mapleader = ","
+let mapleader = "ö"
 set t_Co=256
 
 let g:tex_flavor='latex'
