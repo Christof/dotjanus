@@ -25,6 +25,9 @@ nnoremap <C-t>     :tabnew<CR>
 " enable mouse in all modes
 set mouse=a
 
+" Bind ack to <Leader>f
+nnoremap <Leader>f :Ack 
+
 " create not existing directories
 " code from
 " http://stackoverflow.com/questions/4292733/vim-creating-parent-directories-on-save
