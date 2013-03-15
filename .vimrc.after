@@ -22,6 +22,11 @@ nnoremap <S-k>     :tabnext<CR>
 nnoremap <S-j>     :tabprevious<CR>
 nnoremap <C-t>     :tabnew<CR>
 
+" map ` to <C-m> because it doesn't work on german keyboards
+nnoremap <C-m> `
+" map <C-[> to <C-j>
+nnoremap <C-j> <C-[>
+
 " enable mouse in all modes
 set mouse=a
 
