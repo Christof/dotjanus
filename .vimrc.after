@@ -24,10 +24,10 @@ nnoremap <S-k>     :tabnext<CR>
 nnoremap <S-j>     :tabprevious<CR>
 nnoremap <C-t>     :tabnew<CR>
 
-" map ` to <C-m> because it doesn't work on german keyboards
-nnoremap <C-m> `
-" map <C-]> to <C-j>
-nnoremap <C-j> <C-]>
+" map ` to <Leader>m because it doesn't work on german keyboards
+nnoremap <Leader>m `
+" map <C-]> to <Leader>g
+nnoremap <Leader>g <C-]>
 
 " enable mouse in all modes
 set mouse=a
@@ -48,5 +48,5 @@ function s:MkNonExDir(file, buf)
 endfunction
 augroup BWCCreateDir
   autocmd!
-  autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
 augroup END
+  autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
