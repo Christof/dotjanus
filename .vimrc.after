@@ -24,8 +24,13 @@ nnoremap <S-k>     :tabnext<CR>
 nnoremap <S-j>     :tabprevious<CR>
 nnoremap <C-t>     :tabnew<CR>
 
+" repeate last substitution with same flags
+nnoremap & :&&<CR>
+xnoremap & :&&<CR>
+
 " map ` to <Leader>m because it doesn't work on german keyboards
 nnoremap <Leader>m `
+
 " map <C-]> to <Leader>g
 nnoremap <Leader>g <C-]>
 
