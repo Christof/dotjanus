@@ -18,6 +18,9 @@ set history=400
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
 
+" Join two lines with <C-j>
+nnoremap <C-j> <S-j>
+
 " tab navigation
 nnoremap <C-tab>   :tabnext<CR>
 nnoremap <S-k>     :tabnext<CR>
@@ -54,4 +57,4 @@ endfunction
 augroup BWCCreateDir
   autocmd!
 augroup END
-  autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
+autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
