@@ -27,6 +27,10 @@ nnoremap <S-k>     :tabnext<CR>
 nnoremap <S-j>     :tabprevious<CR>
 nnoremap <C-t>     :tabnew<CR>
 
+" buffer navigation
+nnoremap <silent> <Leader>b :bprevious<CR>
+nnoremap <silent> <Leader>B :bnext<CR>
+
 " repeate last substitution with same flags
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
