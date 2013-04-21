@@ -43,6 +43,9 @@ set mouse=a
 " Bind ack to <Leader>f
 nnoremap <Leader>f :Ack 
 
+" Remap %:h<Tab> to %% for edit, write, saveas and read commands
+cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+
 " create not existing directories
 " code from
 " http://stackoverflow.com/questions/4292733/vim-creating-parent-directories-on-save
