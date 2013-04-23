@@ -50,6 +50,9 @@ nnoremap <Leader>f :Ack
 " Remap %:h<Tab> to %% for edit, write, saveas and read commands
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 
+" Write file as super user
+cnoremap wsu w !sudo tee % > /dev/null
+
 " create not existing directories
 " code from
 " http://stackoverflow.com/questions/4292733/vim-creating-parent-directories-on-save
