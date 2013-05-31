@@ -80,3 +80,7 @@ function! QuickfixFilenames()
   return join(map(values(buffer_numbers), 'fnameescape(v:val)'))
 endfunction
 
+" clojure settings
+" vim-clojure-static plugin
+let g:clojure_align_multiline_strings = 1
+

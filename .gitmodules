@@ -16,3 +16,6 @@
 [submodule "vim-rails"]
 	path = vim-rails
 	url = git://github.com/tpope/vim-rails.git
+[submodule "vim-clojure-static"]
+	path = vim-clojure-static
+	url = git://github.com/guns/vim-clojure-static.git
