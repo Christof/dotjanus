@@ -19,3 +19,6 @@
 [submodule "vim-clojure-static"]
 	path = vim-clojure-static
 	url = git://github.com/guns/vim-clojure-static.git
+[submodule "vim-glsl"]
+	path = vim-glsl
+	url = https://github.com/tikhomirov/vim-glsl
