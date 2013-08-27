@@ -53,6 +53,9 @@ cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 " Write file as super user
 cnoremap wsu w !sudo tee % > /dev/null
 
+" Run default rake task
+nnoremap <Leader>r :wa<CR>:!rake<CR>
+
 " create not existing directories
 " code from
 " http://stackoverflow.com/questions/4292733/vim-creating-parent-directories-on-save
