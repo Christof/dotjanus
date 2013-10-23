@@ -22,3 +22,6 @@
 [submodule "vim-glsl"]
 	path = vim-glsl
 	url = https://github.com/tikhomirov/vim-glsl
+[submodule "YouCompleteMe"]
+	path = YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe.git
