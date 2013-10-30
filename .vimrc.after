@@ -87,3 +87,5 @@ endfunction
 " vim-clojure-static plugin
 let g:clojure_align_multiline_strings = 1
 
+" don't ask before using YCM
+let g:ycm_confirm_extra_conf = 0
