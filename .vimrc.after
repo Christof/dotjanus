@@ -92,5 +92,14 @@ endfunction
 " vim-clojure-static plugin
 let g:clojure_align_multiline_strings = 1
 
+" Syntastic
+" Automatically show error list
+let g:syntastic_auto_loc_list = 1
+" Make the list a little shorter
+let g:syntastic_loc_list_height = 5
+
+" -----------
+" C++ Tooling
+" -----------
 " don't ask before using YCM
 let g:ycm_confirm_extra_conf = 0
