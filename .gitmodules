@@ -28,3 +28,6 @@
 [submodule "rainbow_parentheses.vim"]
 	path = rainbow_parentheses.vim
 	url = git@github.com:kien/rainbow_parentheses.vim.git
+[submodule "vim-gitgutter"]
+	path = vim-gitgutter
+	url = git@github.com:airblade/vim-gitgutter.git
