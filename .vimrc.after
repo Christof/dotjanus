@@ -105,6 +105,5 @@ let g:syntastic_loc_list_height = 5
 let g:ycm_confirm_extra_conf = 0
 
 " clang-format
-command Clangformat execute ":pyf ~/.janus/clang-format.py"
-map <Leader>k :Clangformat<CR>
-imap <C-K> <ESC>:Clangformat<CR>i
+map <Leader>k :%pyf ~/.janus/clang-format.py<CR>
+imap <C-K> <ESC>:pyf ~/.janus/clang-format.py<CR>i
