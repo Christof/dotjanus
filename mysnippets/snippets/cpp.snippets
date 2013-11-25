@@ -1,0 +1,9 @@
+# include guard
+snippet guard
+	#ifndef ${1:`substitute(toupper(expand('%:.')), "[./]", "_", "g")`_}
+
+	#define $1
+
+	${0}
+
+	#endif  // $1
